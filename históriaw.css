@@ -1,0 +1,229 @@
+section {
+    margin: 2px auto;
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+section h1 {
+    color: rgb(0, 0, 0);
+}
+
+.história {
+    width: 100%;
+    color: white;
+}
+
+header a {
+    font-size: 1.9vw;
+    margin: 20px;
+}
+
+.branco {
+    color: rgb(0, 0, 0);
+}
+
+section.história div {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    height: 225px;
+    border: solid 1px rgb(0, 0, 0);
+
+
+}
+
+section.história div h9 {
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.início div p {
+    color: black;
+}
+
+.início div {
+    border: solid 1px black;
+    width: 100%;
+    margin: 7px auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-image: url('Imagens/pcccc.jpg');
+    background-attachment: fixed;
+    background-position-y: 900px;
+    border-radius: 30px;
+}
+
+.início {
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    margin-top: 15px;
+    background-position-y: 1000px;
+    border: solid 1px white;
+}
+
+.descrição {
+    color: gray;
+    opacity: 0.7;
+    font-family: arial;
+    font-size: 10px;
+}
+
+.início div img {
+    margin: 20px;
+    padding: 10px;
+}
+
+.seculo {
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+
+}
+
+.seculo div {
+    border: solid 1px black;
+    width: 100%;
+    margin: 5px auto;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-image: url('Imagens/pcccc.jpg');
+    background-attachment: fixed;
+    background-position-y: 900px;
+    border-radius: 30px;
+
+}
+
+.seculo div p {
+    color: black;
+}
+
+.seculo div img {
+    width: 320px;
+    height: 419px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.seculoo {
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+
+}
+
+.seculoo div {
+    border: solid 1px black;
+    width: 100%;
+    margin: 5px auto;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-image: url('Imagens/pcccc.jpg');
+    background-attachment: fixed;
+    background-position-y: 900px;
+    border-radius: 30px;
+
+}
+
+.seculoo div p {
+    color: black;
+}
+
+.seculoo div img {
+    margin: 2px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.seculooo {
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    margin-top: 10px;
+
+}
+
+.seculooo div {
+    border: solid 1px black;
+    width: 100%;
+    margin: 5px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-image: url('Imagens/pcccc.jpg');
+    background-attachment: fixed;
+    background-position-y: 900px;
+    border-radius: 30px;
+
+}
+
+.seculooo div p {
+    color: black;
+}
+
+.seculooo div img {
+    margin: 2px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 354px;
+    height: 266px;
+}
+
+.fim div img {
+    width: 250px;
+    height: 250px;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.fim {
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+
+    margin-bottom: 20px;
+}
+
+.fim div p {
+    color: black;
+}
+
+.fim div {
+    border: solid 1px black;
+    width: 100%;
+    margin: 5px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-image: url('Imagens/pcccc.jpg');
+    background-attachment: fixed;
+    background-position-y: 900px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.geral {
+    border: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+}

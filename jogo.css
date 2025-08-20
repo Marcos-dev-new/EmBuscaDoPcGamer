@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono";
+}
+
+.ibm-plex-mono-thin {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    opacity: 0;
+    margin: 0 auto;
+    color: black;
+}
+
+.gameboard {
+    width: 100%;
+    height: 650px;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: 120px;
+    animation: pipe-animation 2s infinite linear;
+}
+
+.mario {
+    width: 170px;
+    position: absolute;
+    bottom: 0;
+}
+
+.jump {
+    animation: jump 500ms infinite ease-out;
+}
+
+@keyframes pipe-animation {
+    from {
+        right: 0;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 180px;
+    }
+
+    50% {
+        bottom: 180px;
+    }
+
+    60% {
+        bottom: 180px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
