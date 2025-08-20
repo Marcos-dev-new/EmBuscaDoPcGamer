@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+main div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.aumentar {
+    Transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 250px;
+    padding: 10px;
+}
+
+div.aumentar:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgb(255, 255, 255);
+}
